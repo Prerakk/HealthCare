@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.SoftwareEng.RishitReddyMuthyala.HealthCare">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="com.SoftwareEng.RishitReddyMuthyala.HealthCare.HospitalApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/appicon"
+        android:label="Health Care"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC3RBUWWf9XAX9maKBca_YgVKWLSjwVITk" />
+
+        <activity
+            android:name="com.SoftwareEng.RishitReddyMuthyala.HealthCare.LoginActivity"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+        <activity
+            android:name="com.SoftwareEng.RishitReddyMuthyala.HealthCare.CardView"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+        <activity
+            android:name="com.SoftwareEng.RishitReddyMuthyala.HealthCare.MapsActivity"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+        <activity
+            android:name="com.SoftwareEng.RishitReddyMuthyala.HealthCare.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.SoftwareEng.RishitReddyMuthyala.HealthCare.Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.SoftwareEng.RishitReddyMuthyala.HealthCare.WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.SoftwareEng.RishitReddyMuthyala.HealthCare.BloodDonorsActivity" />
+        <activity
+            android:name="com.SoftwareEng.RishitReddyMuthyala.HealthCare.CardView1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.SoftwareEng.RishitReddyMuthyala.HealthCare.YoutubeActivity" />
+        <activity android:name="com.SoftwareEng.RishitReddyMuthyala.HealthCare.CardView2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
